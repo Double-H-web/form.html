@@ -32,7 +32,7 @@
 
         <br> <br>
 
-        <label for="ort">Tilldela till ort:</label> <br>
+        <label>Tilldela till ort:</label> <br>
         <input type="radio" id="gbg" name="ort" value="gbg">
         <label for="gbg">Göteborg</label><br>
         <input type="radio" id="sthlm" name="ort" value="sthlm">
@@ -47,7 +47,7 @@
         Radio skapar en ifyllnings box.-->
         
         <label for="kategori">Kategori</label> <br>
-        <select name="kategori">
+        <select name="kategori" id="kategori">
             <option value="fakt">Fakturering</option>
             <option value="net">Internet</option>
             <option value="tel">Telefoni</option>
@@ -62,7 +62,7 @@
         <br> <br>
 
         <label for="beskrivning">Beskrivning</label> <br>
-        <textarea name="beskrivning" rows="10" cols="30"></textarea> 
+        <textarea name="beskrivning" id="beskrivning" rows="10" cols="30"></textarea> 
         <!--textarea gör en textruta för längre svar. Rows och cols säger hur stor rutan ska vara.-->
         <br> <br>
         
